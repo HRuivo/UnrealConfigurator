@@ -8,6 +8,7 @@
 
 UPresetManagerComponent::UPresetManagerComponent()
 {
+	DefaultPresetFilename = TEXT("presets");
 }
 
 

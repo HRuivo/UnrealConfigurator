@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "BaseConfiguratorObject.h"
 #include "PresetManagerComponent.generated.h"
 
 USTRUCT(BlueprintType)
@@ -12,7 +13,7 @@ struct FPresetObjectData
 	GENERATED_USTRUCT_BODY()
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UClass* objectClass;
+	TSubclassOf<ABaseConfiguratorObject> objectClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UMaterialInterface* material;
