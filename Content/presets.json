@@ -233,6 +233,36 @@
 					"isVisible": true
 				}
 			]
+		},
+		{
+			"stepCount": 3,
+			"slotCount": 4,
+			"objects": [
+				{
+					"objectClass": "BlueprintGeneratedClass'/Game/Main/Blueprints/Configurables/BP_TeapotObject.BP_TeapotObject_C'",
+					"material": "MaterialInstanceConstant'/Game/Main/Materials/RedMaterial.RedMaterial'",
+					"slotIndex": 1,
+					"isVisible": true
+				},
+				{
+					"objectClass": "BlueprintGeneratedClass'/Game/Main/Blueprints/Configurables/BP_ConeObject.BP_ConeObject_C'",
+					"material": "MaterialInstanceConstant'/Game/Main/Materials/GreenMaterial.GreenMaterial'",
+					"slotIndex": 2,
+					"isVisible": true
+				},
+				{
+					"objectClass": "BlueprintGeneratedClass'/Game/Main/Blueprints/Configurables/BP_Sphere.BP_Sphere_C'",
+					"material": "MaterialInstanceConstant'/Game/Main/Materials/BlueMaterial.BlueMaterial'",
+					"slotIndex": 4,
+					"isVisible": true
+				},
+				{
+					"objectClass": "BlueprintGeneratedClass'/Game/Main/Blueprints/Configurables/BP_AnimatedTeapotObject.BP_AnimatedTeapotObject_C'",
+					"material": "MaterialInstanceConstant'/Game/Main/Materials/OrangeMaterial.OrangeMaterial'",
+					"slotIndex": 5,
+					"isVisible": true
+				}
+			]
 		}
 	]
 }
