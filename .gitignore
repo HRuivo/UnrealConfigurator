@@ -3,3 +3,5 @@ Intermediate/
 Saved/
 *.sln
 .vs/
+Build/
+Builds/
