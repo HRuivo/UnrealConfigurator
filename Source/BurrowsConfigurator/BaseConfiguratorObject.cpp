@@ -19,3 +19,8 @@ void ABaseConfiguratorObject::ToggleVisibility()
 	SetVisibility(!IsVisible());
 }
 
+FVector ABaseConfiguratorObject::GetFocusLocation_Implementation() const
+{
+	return GetActorLocation();
+}
+
