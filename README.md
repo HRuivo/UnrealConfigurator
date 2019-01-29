@@ -1,6 +1,4 @@
-# BurrowsConfigurator
-Burrows Technical Artist Test Application
-
+# Unreal Configurator
 Object display and configurator made in unreal with easy extensibility in mind.
 
 Major aspects of the configurator can be customized by changing the data tables, allowing for a fast and easy extension of the application.
