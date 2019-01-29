@@ -37,6 +37,7 @@ public:
 		FVector GetFocusLocation() const;
 
 
+
 protected:
 	virtual void BeginPlay() override;
 
