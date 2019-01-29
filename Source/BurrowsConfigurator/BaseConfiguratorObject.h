@@ -33,6 +33,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Configurator")
 	UMaterialInterface* GetAssignedMaterial() const;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Configurator")
+		FVector GetFocusLocation() const;
+
 
 protected:
 	virtual void BeginPlay() override;
