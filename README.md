@@ -3,6 +3,8 @@ Object display and configurator made in unreal with easy extensibility in mind.
 
 Major aspects of the configurator can be customized by changing the data tables, allowing for a fast and easy extension of the application.
 
+![Application Showcase](unreal_configurator.gif?raw=true)
+
 ## Getting Started
 ### Adding new Configurable Objects
 ![Configurable Objects DataTable](Doc/config_objects_datatable.jpg?raw=true)
